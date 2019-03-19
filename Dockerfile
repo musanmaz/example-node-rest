@@ -9,4 +9,4 @@ RUN npm install
 COPY . .
 
 EXPOSE 1905
-CMD [ "npm", "run gs" ]
+CMD [ "npm", "run rest" ]
