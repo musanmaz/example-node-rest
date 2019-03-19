@@ -1,15 +1,15 @@
 # example-node-rest
 
-##Running
+### Running ###
 ```bash
 npm install
 npm run gs
 ```
-#Access
+### Access ###
 
 http://localhost:1905
 
-#Example Response
+### Example Response ###
 ```json
 {
   "name": "Mehmet Şirin Usanmaz",
