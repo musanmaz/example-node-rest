@@ -4,7 +4,7 @@ const app = express()
 
 app.use(morgan('tiny'))
 
-app.get('/gs', (req, res) => {
+app.get('/rest', (req, res) => {
     res.header("Content-Type",'application/json');
     res.json({ 
         alphabet : "Aa, Bb, Cc, Çç, Dd, Ee, Ff, Gg, Ğğ, Hh, İi, Iı, Jj, Kk, LI, Mm, Nn, Oo, Öö, Pp, Rr, Ss, Şş, Tt, Uu, Üü, Vv, Yy, Zz",
