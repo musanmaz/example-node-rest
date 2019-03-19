@@ -7,7 +7,7 @@ app.use(morgan('tiny'))
 app.get('/gs', (req, res) => {
     res.header("Content-Type",'application/json');
     res.json({ 
-            message: 'Mehmet Şirin Usanmaz',
+            name: 'Mehmet Şirin Usanmaz',
             champion : 'Şampiyon Galatasaray'
         })
 })
